@@ -1,57 +1,33 @@
 # Sentinel Dashboard Docker
 
-[Docker Pulls](https://hub.docker.com/r/cike/sentinel-dashboard-docker)
+本项目是Alibaba Sentinel Dashboard [Sentinel](https://github.com/alibaba/Sentinel)的docker构建脚本.
 
-本项目是Alibaba Sentinel Dashboard [Sentinel](https://github.com/alibaba/Sentinel).
-
-
-## Project directory
-
-* build：Sentinel Dashboard makes the source code of the docker image
-* env: Environment variable file for compose yaml
-* docker-compose: Docker compose example for Sentinel Dashboard server
+## Dockerfile
+用于构建docker镜像的Dockerfile，其中build-image.sh用于构建镜像，该命令会自动查找bin目录下sentinel-dashboard开头的文件，获取对应版本号用户设置镜像版本号
 
 
-## Quick Start
+## 通用的参数
 
-Run the following command：
-
-* Clone project
-
-  ```sh
-  git clone https://github.com/zhoutaoo/sentinel-dashboard-docker.git
-  ```
-
-* Build Image
-  ```sh
-  cd build
-  docker build -t cike/sentinel-dashboard-docker .
-  ```
-
-* Run With docker
-
-```sh
-docker run -p 8021:8021 -it cike/sentinel-dashboard-docker
-```
-
-* Run With docker-compose
-
-  ```sh
-  docker-compose up
-  ```
-
-* Open the Sentinel Dashboard console in your browser
-
-  link：http://127.0.0.1:8021/
-
-  ![示例图](index.png)
-
-
-## Common property configuration
-
-| name                         | description                            | option                         |
+| name                         | 描述                            | 默认值                         |
 | ---------------------------- | -------------------------------------- | ------------------------------ |
-| SERVER_PORT                  | server启动的端口                         | 8021                           |
-| PROJECT_NAME                 | 项目名称                                 | sentinel-dashboard             |
-| USERNAME                     | dashboard登陆用户名                      | 默认sentinel                    |
-| PASSWORD                     | dashboard登陆密码                        | 默认sentinel                    |
+| SERVER_PORT                  | server启动的端口                         | 8001                           |
+| DASHBOARD_SERVER_USERNAME    | dashboard登录用户名                  | admin            |
+| DASHBOARD_SERVER_PASSWORD    | dashboard登陆密码                     | 123456                   |
+| HIDEAPPNOMACHINEMILLIS       | 被监控的客户端在dashboard隐藏超时时间(ms)   | 60000                    |
+| REMOVEAPPNOMACHINEMILLIS       | 被监控的客户端在dashboard被删除超时时间(ms)   | 120000                    |
+| SESSIONTIMEOUTNAME       | 客户端登录session的超时时间(ms)   | 7200                    |
+
+## 运维
+### 构建镜像
+```shell script
+  ./build-image.sh
+```
+### 启动服务
+#### 简易使用
+```shell script
+  docker run -d -p 8001:8001 jiaozi/sentinel-dashboard:1.8.0
+```
+#### 拓展参数
+```shell script
+  docker run -d -p 8001:8001 -e DASHBOARD_SERVER_PASSWORD=1234567 jiaozi/sentinel-dashboard:1.8.0
+```
