@@ -3,7 +3,7 @@
 本项目是Alibaba Sentinel Dashboard [Sentinel](https://github.com/alibaba/Sentinel)的docker构建脚本.
 
 ## Dockerfile
-用于构建docker镜像的Dockerfile，其中build-image.sh用于构建镜像，该命令会自动查找bin目录下sentinel-dashboard开头的文件，获取对应版本号用户设置镜像版本号
+用于构建docker镜像的Dockerfile，其中build-image.sh用于构建镜像，该命令会自动查找bin目录下sentinel-dashboard开头的文件，获取对应版本号用于设置镜像版本号
 
 
 ## 通用的参数
