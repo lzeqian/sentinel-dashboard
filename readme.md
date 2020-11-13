@@ -38,6 +38,6 @@
   docker service create  -p 8001:8001 -e DASHBOARD_SERVER_PASSWORD=1234567 liaomin789/sentinel-dashboard:1.8.0
 ```
 ### 访问
-访问：http://宿主机ip:8001，输入用户名(默认:admin)和密码(默认：123456)
+http://宿主机ip:8001，输入用户名(默认:admin)和密码(默认：123456)
 ![](doc/board.png)
 
