@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822c61dc-28a3-4a71-baf7-b196d2678b52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
+    <list default="true" id="822c61dc-28a3-4a71-baf7-b196d2678b52" name="Default Changelist" comment="linux 字符集问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +21,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\sentinel-dashboard" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,7 +50,58 @@
       <option name="presentableId" value="Default" />
       <updated>1605250063325</updated>
       <workItem from="1605250068387" duration="2095000" />
+      <workItem from="1605252966509" duration="2026000" />
     </task>
+    <task id="LOCAL-00001" summary="完善文档">
+      <created>1605253110250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605253110250</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完善文档，命令错误">
+      <created>1605253189076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605253189076</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完善文档">
+      <created>1605253336213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605253336213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完善文档">
+      <created>1605253463050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605253463050</updated>
+    </task>
+    <task id="LOCAL-00005" summary="完善文档">
+      <created>1605253638312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605253638312</updated>
+    </task>
+    <task id="LOCAL-00006" summary="linux 字符集问题">
+      <created>1605254800388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605254800388</updated>
+    </task>
+    <task id="LOCAL-00007" summary="linux 字符集问题">
+      <created>1605254930369</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605254930369</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,10 +112,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完善文档，命令错误" />
+    <MESSAGE value="完善文档" />
+    <MESSAGE value="linux 字符集问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="linux 字符集问题" />
   </component>
 </project>

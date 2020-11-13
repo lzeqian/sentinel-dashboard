@@ -27,9 +27,9 @@
 目前dockerhub上已经打包了最新版本的镜像，如果不是拓展参数的需求，构建镜像步骤可以省略。
 #### 简易使用
 ```shell script
-  docker run -d -p 8001:8001 jiaozi/sentinel-dashboard:1.8.0
+  docker run -d -p 8001:8001 liaomin789/sentinel-dashboard:1.8.0
 ```
 #### 拓展参数
 ```shell script
-  docker run -d -p 8001:8001 -e DASHBOARD_SERVER_PASSWORD=1234567 jiaozi/sentinel-dashboard:1.8.0
+  docker run -d -p 8001:8001 -e DASHBOARD_SERVER_PASSWORD=1234567 liaomin789/sentinel-dashboard:1.8.0
 ```
