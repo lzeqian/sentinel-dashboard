@@ -41,5 +41,5 @@
 http://宿主机ip:8001，输入用户名(默认:admin)和密码(默认：123456)
 ![](doc/board.png)
 
-###升级版本
+### 升级版本
 只需要将bin目录下的sentinel-dashboard-1.8.0.jar换成你对应版本的jar包即可，切勿修改jar包名称。
