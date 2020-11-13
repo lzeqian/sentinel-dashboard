@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DASHBOARDPREFIX=sentinel-dashboard
 DASHBOARD_SERVER_VERSION=
 while read -r file
