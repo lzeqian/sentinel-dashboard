@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822c61dc-28a3-4a71-baf7-b196d2678b52" name="Default Changelist" comment="linux 字符集问题">
+    <list default="true" id="822c61dc-28a3-4a71-baf7-b196d2678b52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/board.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +20,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\sentinel-dashboard\doc" />
       <recent name="D:\code\sentinel-dashboard" />
     </key>
   </component>
@@ -50,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605250063325</updated>
       <workItem from="1605250068387" duration="2095000" />
-      <workItem from="1605252966509" duration="2026000" />
+      <workItem from="1605252966509" duration="2566000" />
     </task>
     <task id="LOCAL-00001" summary="完善文档">
       <created>1605253110250</created>
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605254930369</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改docker的namespace名称">
+      <created>1605255535266</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605255535266</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
     <MESSAGE value="完善文档，命令错误" />
     <MESSAGE value="完善文档" />
     <MESSAGE value="linux 字符集问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="linux 字符集问题" />
+    <MESSAGE value="修改docker的namespace名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改docker的namespace名称" />
   </component>
 </project>
