@@ -21,7 +21,7 @@
 ### 构建镜像
 ```shell script
   git clone https://github.com/lzeqian/sentinel-dashboard.git
-  ./build-image.sh
+  cd sentinel-dashboard && ./build-image.sh
 ```
 ### 启动服务
 #### 简易使用
