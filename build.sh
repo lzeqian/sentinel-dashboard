@@ -1,0 +1,2 @@
+DASHBOARD_SERVER_VERSION=1.8.0
+docker build -t jiaozi/sentinel-dashboard:${DASHBOARD_SERVER_VERSION} --build-arg DASHBOARD_SERVER_VERSION=${DASHBOARD_SERVER_VERSION} -f ./Dockerfile .
