@@ -20,6 +20,7 @@
 ## 运维
 ### 构建镜像
 ```shell script
+  git pull https://github.com/lzeqian/sentinel-dashboard.git
   ./build-image.sh
 ```
 ### 启动服务
